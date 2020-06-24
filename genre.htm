@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Genre</title>
+<link href='https://fonts.googleapis.com/css?family=Nosifer' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Meddon' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Mystery Quest' rel='stylesheet'>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Codystar:300&display=swap">
+<style>
+* {
+  box-sizing: border-box;
+}
+.vj{
+    font-family: 'Emblema One';
+    font-size: 30px;
+    color:#ff0500;
+}
+.dra{
+    font-family: 'Mystery Quest';
+    font-size: 40px;
+     color:white;
+}
+.thr{
+    font-family: 'Nosifer';
+    font-size: 30px;
+    color:#cc0000;
+}
+.lov{
+    font-family: 'Meddon';
+    font-size: 30px;
+    color:#ff0080;
+}
+
+.column {
+  float: left;
+  padding: 5px;
+  width:33.33%;
+}
+
+/* Clearfix (clear floats) */
+.rw::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.container {
+  position: relative;
+  text-align: center;
+  font-family:arial;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+body {
+   font-family: 'Codystar';
+   
+}
+
+.neons {
+   text-align: center;
+   background-color:black;
+}
+
+.neons h1 {
+  font-size: 7rem;
+   font-weight: bold;
+  -webkit-animation: glow 2s ease-in-out infinite alternate;
+  -moz-animation: glow 2s ease-in-out infinite alternate;
+  animation: glow 2s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+     from {
+      color: #fff;
+    text-shadow: 0 0 10px #00fff2, 0 0 20px #00fff2, 0 0 30px #00fff2, 0 0 40px #00fff2, 0 0 50px #00fff2, 0 0 60px #00fff2, 0 0 70px #00fff2, 0 0 90px #00fff2;
+  }
+  
+  to {
+     color: gray;
+    text-shadow: 0 0 20px #00fff2, 0 0 30px #00fff2, 0 0 40px #00fff2, 0 0 50px #00fff2, 0 0 60px #00fff2, 0 0 70px #00fff2, 0 0 80px #00fff2, 0 1 90px #00fff2;
+  }
+}
+
+
+@media screen and (max-width:700px) {
+  .column {
+    min-width: 100%;
+    height:auto;
+  }
+}
+</style>
+</head>
+<body>
+<div class="container">
+   <div class="row">
+      <div class="neons col-12">
+         <h1><em>GENRE</em></h1>
+      </div>
+   </div>
+</div>
+<div class="rw">
+  <div class="column container">
+    <a href="vj_choice.htm"><img border="0" src="vlogo.jpg" alt="VJ'S CHOICE" width="430" height="300">
+    <div class="centered vj"><h1>VJ'S CHOICE</h1></div></a>
+  </div>
+  <div class="column container ">
+    <a href="drama.htm"><img border="0" src="drama.jpg" alt="DRAMA"  width="430" height="300">
+    <div class="centered dra"><h1>DRAMA</h1></div></a>
+  </div>
+  <div class="column container">
+    <a href="thriller.htm"><img border="0" src="thrill.jpg" alt="THRILLER"  width="430" height="300">
+    <div class="centered thr"><h1>THRILLER</h1></div></a>
+  </div>
+<div class="column container ">
+   <a href="love.htm"><img border="0" src="love.jpg" alt="LOVE"  width="430" height="300">
+    <div class="centered lov"><h1>LOVE</h1></div></a>
+  </div>
+<div class="column container ">
+    <a href="comedy.htm"><img border="0" src="comedy.jpg" alt="COMEDY"  width="430" height="300">
+  </div></a>
+ </div>
+
+
+
+</body>
+</html>
